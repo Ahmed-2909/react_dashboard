@@ -4,6 +4,7 @@ import Navbar from './component/navbar';
 import FirstGraph from './component/FirstGraph';
 import SecondGraph from './component/SecondGraph';
 import ThirdGroup from './component/ThirdGroup';
+import SmallNavbar from './component/samallNavbar';
 
 function App() {
   return (
@@ -13,12 +14,15 @@ function App() {
 
       </div>
       <div className='w-full'>
+        
         <div className='w-2/12 bg-blue-500 m-4 rounded-lg fixed '>
           <Navbar />
         </div>
         <div className=' lg:absolute lg:right-0 lg:overflow-hidden mx-4 lg:w-4/5 lg:mx-3 '>
+          <SmallNavbar />
           <FirstGraph />
           <SecondGraph />
+          
           <ThirdGroup />
         </div>
       </div>

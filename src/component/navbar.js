@@ -10,40 +10,40 @@ const Navbar = () => {
             </div>
             <div className='my-2 mx-5 p-2  flex flex-col justify-between h-[75vh]  '>
                 <div>
-                    <div className='flex my-5 items-baseline' >
+                    <div className='flex my-5 items-baseline cursor-pointer' >
                         <i class="fi fi-rr-chart-histogram "></i>
                         <p className='ml-8'>DASHBOARD</p>
                     </div>
-                    <div className='flex my-5 items-center' >
+                    <div className='flex my-5 items-center cursor-pointer' >
                         <i class="fi fi-brands-atom"></i>
                         <p className='ml-8'>ICONS</p>
                     </div>
-                    <div className='flex my-5' >
+                    <div className='flex my-5 cursor-pointer' >
                         <i class="fi fi-rr-thumbtack"></i>
                         <p className='ml-8'>MAP</p>
                     </div>
-                    <div className='flex my-5' >
+                    <div className='flex my-5 cursor-pointer' >
                         <i class="fi fi-rr-bell"></i>
                         <p className='ml-8'>NOTIFICATION</p>
                     </div>
-                    <div className='flex my-5' >
+                    <div className='flex my-5 cursor-pointer' >
                         <i class="fi fi-rr-user"></i>
                         <p className='ml-8'>USER PROFILE</p>
                     </div>
-                    <div className='flex my-5' >
+                    <div className='flex my-5 cursor-pointer' >
                         <i class="fi fi-rs-puzzle-piece"></i>
                         <p className='ml-8'>TABLE LIST</p>
                     </div>
-                    <div className='flex my-5' >
+                    <div className='flex my-5 cursor-pointer' >
                         <i class="fi fi-rs-document-signed"></i>
                         <p className='ml-8'>TYPOGRAPHY</p>
                     </div>
-                    <div className='flex my-5' >
+                    <div className='flex my-5 cursor-pointer' >
                         <i class="fi fi-rs-world"></i>
                         <p className='ml-8'>RTL SUPPORT</p>
                     </div>
                 </div>
-                <div className='flex items-center pb-5' >
+                <div className='flex items-center pb-5 cursor-pointer' >
                     <i class="fi fi-rs-rocket-lunch"></i>
                     <p className='ml-8'>UPGRADE TO PRO</p>
                 </div>
